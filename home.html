@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="homeStyle.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+        function viewAccounts() {
+            window.location.replace("/viewAccounts")
+        }
+        function joinAccount() {
+            window.location.replace("/join")
+        }
+        function createAccount() {
+            window.location.replace("/create")
+        }
+        function addPaymentMethods() {
+            window.location.replace("/addPayment")
+        }
+    </script>
+    <header>
+        <h1>Gemini</h1>
+        <a href="/logout">Logout</a>
+
+    </header>
+    <div class="options">
+        <div class="card" onclick="viewAccounts()">
+            <h2>View Gemini Accounts</h2>
+        </div>
+        <div class="card" onclick="joinAccount()">
+            <h2>Join New Account</h2>
+        </div>
+        <div class="card" onclick="createAccount()">
+            <h2>Create New Account</h2>
+        </div>
+        <div class="card" onclick="addPaymentMethods()">
+            <h2>Add Payment Methods</h2>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer>
+    
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Terms of Use</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blanl">About Us</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" >Contact Us</a>
+    
+    </footer>
+
+
+
+
+</body>
+</html>
